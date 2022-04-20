@@ -7,17 +7,27 @@ import processing.core.PApplet;
 */
 
 public class Sketch extends PApplet {
-  // initial settings
-
+  
+  /**
+   * Initial settings happens in it
+   *
+   */
   public void settings() {
     size(800, 400);
   }
 
+  /**
+   * Is called once and to set the initial environment code is to happen in
+   *
+   */
   public void setup() {
     background(210, 255, 173);
   }
 
-  
+  /**
+   * Is called continuously and executes the codes within it infinite times
+   *
+   */
   public void draw() {
     
     // runs two for's for row and column and draws stick figures each time. Might draw a heart or not.
