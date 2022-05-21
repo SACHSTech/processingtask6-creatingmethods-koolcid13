@@ -45,6 +45,7 @@ public class Sketch extends PApplet {
    *
    * @param x  x-coordinates
    * @param y  y-coordinates
+   * @param colour  colourcode
    *
    */
   private void drawGuy(float x, float y, int colour) 
